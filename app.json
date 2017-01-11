@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/lol/index/index",
+    "pages/lol/free/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "英雄联盟",
+    "navigationBarTextStyle":"black"
+  },
+  "debug": true
+}

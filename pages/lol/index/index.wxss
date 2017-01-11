@@ -1,0 +1,23 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.action-box {
+    display: flex;
+		width: 40%;
+		align-items: center;
+		height: 5rem;
+		box-sizing: border-box;
+		border:1px solid red;
+    margin-top: 2%;
+}
+
+.action-item {
+  text-align: center;
+}

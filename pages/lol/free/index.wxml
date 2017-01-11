@@ -1,0 +1,38 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-cells__title"></view>
+        <view class="weui-cells weui-cells_after-title" wx:for="{{ heroList }}">
+            <view class="weui-cell">
+                <view class="weui-cell__hd" style="position: relative;margin-right: 10px;">
+                    <image src="../images/heroIcon/{{ index }}_Square_0.png" style="width: 50px; height: 50px; display: block"/>
+                </view>
+                <view class="weui-cell__bd">
+                    <view>{{ item.name }}</view>
+                    <view style="font-size: 13px;color: #888888;">{{ item.title }}</view>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_access">
+                <view class="weui-cell__bd" >
+                    <view>
+					攻击: {{ item.info.attack }}
+					</view>
+					<view>
+					防御: {{ item.info.defense }}
+					</view>
+					<view>
+					魔法: {{ item.info.magic }}
+					</view>
+					<view>
+					难度: {{ item.info.difficulty }}
+					</view>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_access">
+                <view class="weui-cell__bd">
+                    <view style="display: inline-block; vertical-align: middle">英雄攻略</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access">详细信息</view>
+            </view>
+        </view>
+    </view>
+</view>

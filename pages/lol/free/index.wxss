@@ -1,0 +1,7 @@
+.page__bd {
+	margin-top : 40rpx;
+}
+
+.weui-cells_after-title {
+	margin-bottom : 20rpx;
+}

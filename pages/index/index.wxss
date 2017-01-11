@@ -1,0 +1,34 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+  color: #fff;
+}
+
+.entrance {
+  margin-top: 50rpx;
+}
+
+.container {
+  background-image:  url("http://ohg6w8k1d.bkt.clouddn.com/%E7%9B%B2%E5%83%A7.JPG")
+}
+
+.user-motto {
+  align-items: center;
+}
