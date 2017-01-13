@@ -24,26 +24,10 @@ App({
       })
     }
   },
-  getHeroIcon : function(id) {
-      var self = this;
-      wx.request({
-          url : self.globalData.apiUrl + 'GetChampionIcon',
-          data : { id : id},
-          header : {
-              "DAIWAN-API-TOKEN" : self.globalData.token
-          },
-          success : function(res) {
-              console.log(res.data);
-              return res;
-          },
-          error : function (res) {
-              console.log(res);
-          }
-      })
-  },
   globalData:{
+    heroIcon: {},
     userInfo:null,
     apiUrl : "http://lolapi.games-cube.com/",
-    token : "4054F-2444B-AB010-A7100"
+    token : "93003-74FF4-4FFAD-33033"
   }
 })

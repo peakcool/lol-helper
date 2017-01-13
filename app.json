@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/lol/index/index",
-    "pages/lol/free/index"
+    "pages/lol/free/index",
+    "pages/lol/account/account"
   ],
   "window":{
     "backgroundTextStyle":"light",

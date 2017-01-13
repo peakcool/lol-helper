@@ -8,7 +8,7 @@ Page({
       },
       {
         title : "用户信息",
-        url : "../account/index",
+        url : "../account/account",
         img : "../images/lol/lol3.png"
       },
       {
