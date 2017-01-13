@@ -1,10 +1,21 @@
-.searchbar-result{
-    margin-top: 0;
-    font-size: 14px;
+.container {
+  margin-top:-100rpx;
 }
-.searchbar-result:before{
-    display: none;
+
+.placeholder{
+    width: 100%;
+    padding: 0 10rpx;
+    text-align: center;
+    background-color:silver;
+    height: 2.3em;
+    line-height: 2.3em;
+    font-size: 10pt;
 }
-.weui-cell{
-    padding: 12px 15px 12px 35px;
+
+.data-box {
+  margin:0 20rpx;
+}
+
+.content-box {
+  margin: 20rpx 0;
 }

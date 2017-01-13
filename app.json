@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/lol/index/index",
     "pages/lol/free/index",
+    "pages/lol/search/search",
     "pages/lol/account/account"
   ],
   "window":{

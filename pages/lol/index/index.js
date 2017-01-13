@@ -8,12 +8,12 @@ Page({
       },
       {
         title : "用户信息",
-        url : "../account/account",
+        url : "../search/search",
         img : "../images/lol/lol3.png"
       },
       {
         title : "战绩查询",
-        url : "../account/index",
+        url : "../account/account",
         img : "../images/lol/lol4.png"
       },
       {
